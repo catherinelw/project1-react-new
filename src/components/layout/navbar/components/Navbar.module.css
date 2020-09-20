@@ -1,0 +1,36 @@
+.header {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightgray;
+    align-items: center;
+    padding: 30px 10%;
+    border: 1px solid red;
+}
+
+.list, .a, .button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+.nav_links{
+    list-style: none;
+    /* border: 1px solid yellow; */
+}
+
+.list{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.a {
+    transition: all 0.3s ease 0s;
+
+}
+.a:hover {
+     color: #0088a9;
+}

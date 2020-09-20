@@ -1,0 +1,11 @@
+.iconsContainer {
+    width: 30%;
+    display:flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+.iconsContainer img{
+    color: lightgray;
+    height: 25px;
+    width: 25px;
+}

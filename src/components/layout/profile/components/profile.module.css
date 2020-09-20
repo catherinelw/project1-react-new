@@ -1,0 +1,20 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    border: 1px solid red;
+
+}
+.profileName{
+color: whitesmoke;
+}
+.profileDesc {
+position: relative;
+top: -30px;
+font-size: 18px;
+color: whitesmoke;
+font-weight: 500;
+}
