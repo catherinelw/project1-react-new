@@ -4,8 +4,8 @@ import styles from './contactBox.module.css'
 const contactBox = (props) => {
     return (
         <div className={styles.contactBox}>
-            {props.icon}
-           {props.name} 
+            {/* {props.icon} */}
+           {props.children} 
         </div>
     )
 }
