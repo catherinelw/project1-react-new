@@ -7,11 +7,21 @@ const Navbar = () => {
         return (
             <header className={styles.header}>
             <div className="nav_links">
-               <NavbarItem toPage="HOME">HOME</NavbarItem>
-               <NavbarItem toPage="ABOUTME">ABOUT ME</NavbarItem>
-               <NavbarItem toPage="RESUME">RESUME</NavbarItem>
-               <NavbarItem toPage="PORTFOLIO">PORTFOLIO</NavbarItem>
-               <NavbarItem toPage="CONTACT">CONTACT</NavbarItem>
+               {/* <Link> */}
+               <NavbarItem to="/">HOME</NavbarItem>
+               {/* </Link> */}
+               {/* <Link> */}
+               <NavbarItem to="/about">ABOUT ME</NavbarItem>
+                {/* </Link>  */}
+                 {/* <Link>  */}
+               <NavbarItem to="/resume">RESUME</NavbarItem>
+               {/* </Link> */}
+                {/* <Link> */}
+               <NavbarItem to="/portfolio">PORTFOLIO</NavbarItem>
+               {/* </Link> */}
+               {/* <Link> */}
+               <NavbarItem to="/contact">CONTACT</NavbarItem>
+               {/* </Link> */}
             </div>
             </header>
         )

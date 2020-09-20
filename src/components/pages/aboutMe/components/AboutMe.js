@@ -1,5 +1,10 @@
 import React from "react";
 import styles from "./aboutMe.module.css";
+import book from "../assets/book.svg"
+import web from "../assets/web.svg"
+import business from "../assets/business.svg"
+import writing from "../assets/writing.svg"
+import SkillsIcons from "./SkillsIcons"
 
 
 const aboutMe = () => {
@@ -18,7 +23,7 @@ const aboutMe = () => {
             <div className={styles.enjoymentList}>
               <h2>Ecommerce</h2>
               <div className={styles.enjoymentIcon}>
-                <img src="image/business.svg" alt="business" />
+                <img src={business} alt="business" />
               </div>
               <p className={styles.body}>
                 Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio
@@ -29,7 +34,7 @@ const aboutMe = () => {
             <div className={styles.enjoymentList}>
               <h2>Web Design</h2>
               <div className={styles.enjoymentIcon}>
-                <img src="image/web.svg" alt="web" />
+                <img src={web}alt="web" />
               </div>
               <p className={styles.body}>
                 Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio
@@ -40,7 +45,7 @@ const aboutMe = () => {
             <div className={styles.enjoymentList}>
               <h2>Writing</h2>
               <div className={styles.enjoymentIcon}>
-                <img src="image/writing.svg" alt="writing" />
+                <img src={writing} alt="writing" />
               </div>
 
               <p className={styles.body}>
@@ -52,7 +57,7 @@ const aboutMe = () => {
             <div className={styles.enjoymentList}>
               <h2>Reading</h2>
               <div className={styles.enjoymentIcon}>
-                <img src="image/book.svg" alt="reading" />
+                <img src={book} alt="reading" />
               </div>
               <p className={styles.body}>
                 Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio
@@ -65,15 +70,8 @@ const aboutMe = () => {
 
         <div class={styles.skills}>
            <div class={styles.skillsTitle}> Skills</div>
-           <div className={styles.skillsIcon}>
-           <img src="image/js.jpg" alt="javascript"/>
-           <img src="image/react.svg" alt="react"/>
-           <img src="image/git.png" alt="git"/>
-            <img src="image/mongo.png" alt="mongo" />
-            <img src="image/node.png" alt="node" />
-           <img src="image/java.jpeg" alt="java"/>
-           <img src="image/php.png" alt="php"/>
-           <img src="image/postman.png" alt="postman"/>
+           <div className={styles.skillsIcons}>
+           <SkillsIcons />
         </div>
        </div>
       </div>

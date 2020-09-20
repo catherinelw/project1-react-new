@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from './Navbar.module.css'
+import { Link } from 'react-router-dom'
 
-const NavbarItem = ({toPage, children}) => (
+const NavbarItem = ({to, children}) => (
     <li className={styles.list}>
-    <a className={styles.a} href={toPage}>
+    <Link className={styles.a} to={to}>
         {children}
-    </a>
+    </Link>
     </li>
 )
 
