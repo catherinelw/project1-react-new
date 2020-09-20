@@ -1,5 +1,29 @@
 .form{
     width: 100%;
-    border: 1px solid yellow;
     margin: 25px;
+    font-size: 20px;
+}
+
+.submit{
+    width: 80%;
+    height: 25px;
+    border-radius: 30px;
+    background-color: white;
+    border: 2px solid green;
+}
+.message {
+    height:180px;
+    width:80%;
+    padding: 5px 0 0 15px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+}
+
+.fullName,
+.email{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+    padding: 3px 0 0 15px;
 }

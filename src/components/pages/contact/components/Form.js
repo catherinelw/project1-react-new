@@ -6,13 +6,13 @@ const form = () => {
     How Can I Help You?
     <form name="form">
   <label for="fname"></label><br />
-  <input type="text" id="fname" name="fname" value="Full Name" style={{width:"80%"}}/><br />
-  <label for="lname"></label><br />
-  <input type="text" id="lname" name="lname" value="Email" style={{width:"80%"}}/><br /><br />
+  <textarea type="text" id="fname" name="fname" placeholder="Full Name" className={styles.fullName}/><br />
+  <label for="email"></label><br />
+  <textarea type="text" id="email" name="email" placeholder="Email" className={styles.email}/><br /><br />
   <label for="subject"></label>
-    <textarea id="subject" name="Message" 
-    placeholder="Message" style={{height:"150px", width:"80%"}}></textarea>
-  <input type="submit" value="Submit" />
+    <textarea id="message" name="Message" 
+    placeholder="Message" className={styles.message}></textarea>
+  <input type="submit" value="Submit" className={styles.submit}/>
   </form>
 </div>  
         
