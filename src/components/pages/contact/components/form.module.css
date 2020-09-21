@@ -5,7 +5,7 @@
 }
 
 .submit{
-    width: 80%;
+    width: 100%;
     height: 45px;
     margin-top: 30px;
     padding: 10px;
@@ -15,7 +15,7 @@
 }
 .message {
     height:220px;
-    width:80%;
+    width:100%;
     padding: 5px 0 0 15px;
     border-radius: 10px;
     border: 2px solid lightgray;
@@ -24,7 +24,7 @@
 .fullName,
 .email,
 .phone{
-    width: 80%;
+    width: 100%;
     height: 30px;
     border-radius: 10px;
     border: 2px solid lightgray;

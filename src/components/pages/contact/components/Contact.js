@@ -10,9 +10,7 @@ const contact = () => {
         <>
         <div className={styles.container}>
         <ContactDetails />
-        <div className={styles.Form}>
         <Form /> 
-        </div> 
         </div>
         <Location /> 
         </>

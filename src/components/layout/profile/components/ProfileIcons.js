@@ -9,10 +9,8 @@ const profileIcons = () => {
             <div className={styles.iconsContainer}>
             <img src={linkedin} alt="linkedin" />
             <img src={github} alt="github" />
-                
             </div>
         )
-    
-}
+    }
 
 export default profileIcons

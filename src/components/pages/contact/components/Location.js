@@ -3,8 +3,6 @@ import GoogleMapReact from 'google-map-react';
 import styles from './location.module.css'
 import marker from '../assets/marker.png'
 
-
- 
 const Pin = () => <div></div>;
 
 class location extends Component {
@@ -30,8 +28,7 @@ class location extends Component {
             <img src={marker} className={styles.marker} alt="marker" />
         </Pin>
         
-       
-        </GoogleMapReact>
+       </GoogleMapReact>
       </div>
     );
   }

@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './contactDetails.module.css'
 import ContactBox from './ContactBox'
-// import Icon from './Icon'
 import marker from '../assets/marker.svg'
 import phone from '../assets/phone.svg'
 import email from '../assets/email.svg'
@@ -22,7 +21,6 @@ const contactDetails = () => {
         </div>
         0420640582
         </ContactBox>
-
         <ContactBox>
         <div>
         <img src={email} className={styles.icon} alt="email"/>

@@ -7,7 +7,6 @@
     align-items: center;
     padding: 30px 10%;
 }
-
 .list, .a, .button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -15,17 +14,13 @@
     color:whitesmoke;
     text-decoration: none;
 }
-
 .nav_links{
     list-style: none;
-    /* border: 1px solid yellow; */
 }
-
 .list{
     display: inline-block;
     padding: 0px 20px;
 }
-
 .a {
     transition: all 0.3s ease 0s;
 

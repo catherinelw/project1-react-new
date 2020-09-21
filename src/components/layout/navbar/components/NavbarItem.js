@@ -9,7 +9,4 @@ const NavbarItem = ({to, children}) => (
     </Link>
     </li>
 )
-
-
-
 export default NavbarItem

@@ -4,19 +4,16 @@
     font-size: 30px;
     color: black;
 }
-
 .enjoymentTitle {
     color: black;
     font-size: 25px;
 }
-
 .container {
     display: flex;
     flex-direction: column;
     width: 80%;
     margin: auto;
 }
-
 .skills {
     margin: 30px 0;
 }
@@ -48,7 +45,6 @@
     line-height: 1.4;
     width: 100%;
     margin-top: 20px;
-    /* top: 70px; */
 }
 
 .enjoyment {

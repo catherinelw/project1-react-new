@@ -4,8 +4,6 @@ import Card from './Card'
 import ocean from '../assets/ocean.PNG'
 import lake from '../assets/lake.jpg'
 import desert from '../assets/desert.PNG'
-
-
 export const portfolio = () => {
     return (
         <div className={styles.container}>

@@ -5,15 +5,14 @@
     align-items: center;
     height: 100%;
     width: 40%;
-
 }
-.profileName{
-color: whitesmoke;
+.profileName {
+    color: rgb(245, 245, 245);
 }
 .profileDesc {
-position: relative;
-top: -30px;
-font-size: 18px;
-color: whitesmoke;
-font-weight: 500;
+    position: relative;
+    top: -30px;
+    font-size: 18px;
+    color: rgb(245, 245, 245);
+    font-weight: 500;
 }
