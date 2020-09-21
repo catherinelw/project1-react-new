@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+}
+.card:hover {
+    opacity: 0.85;
+    box-shadow:  8px 16px 8px  rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.title{
+    margin: 20px 0;
+}

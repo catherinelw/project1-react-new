@@ -7,7 +7,7 @@ import Resume from './components/pages/resume/components/Resume';
 import AboutMe from './components/pages/aboutMe/components/AboutMe';
 import Home from './components/pages/home/components/Home'
 import Contact from './components/pages/contact/components/Contact'
-
+import Portfolio from './components/pages/portfolio/components/Portfolio'
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
       <Route exact path='/' component={Home} />
       <Route exact path='/about' component={AboutMe} />
       <Route exact path='/resume' component={Resume} />
-      {/* <Route exact path='/portfolio' component={Portfolio} /> */}
+      <Route exact path='/portfolio' component={Portfolio} />
       <Route exact path='/contact' component={Contact} />
 
       </Switch>
