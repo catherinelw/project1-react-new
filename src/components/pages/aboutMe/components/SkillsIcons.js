@@ -15,8 +15,8 @@ const skillsIcons = () => {
            <img src={javascript} className={styles.js} alt="javascript"/>
            <img src={react} className={styles.react} alt="react"/>
            <img src={git} className={styles.git} alt="git"/>
-            <img src={mongo} className={styles.mongo} alt="mongo" />
-            <img src={node} className={styles.node} alt="node" />
+           <img src={mongo} className={styles.mongo} alt="mongo" />
+           <img src={node} className={styles.node} alt="node" />
            <img src={java} className={styles.java} alt="java"/>
            <img src={php} className={styles.php} alt="php"/>
            <img src={postman} className={styles.postman} alt="postman"/>
