@@ -7,14 +7,16 @@ import Location from './Location'
 
 const contact = () => {
     return (
-      
+        <>
         <div className={styles.container}>
         <ContactDetails />
-        <div className={styles.locationAndForm}>
-        <Location />  
+        <div className={styles.Form}>
         <Form /> 
+        </div> 
         </div>
-        </div>
+        <Location /> 
+        </>
+        
     )
 }
 
