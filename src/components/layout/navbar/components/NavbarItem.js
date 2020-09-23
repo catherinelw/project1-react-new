@@ -1,12 +1,13 @@
 import React from 'react'
 import styles from './Navbar.module.css'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
-const NavbarItem = ({to, children}) => (
+const NavbarItem = ({to, children, onClick}) => (
     <li className={styles.list}>
-    <Link className={styles.a} to={to}>
+    <div className={styles.a} 
+          onClick={onClick}>
         {children}
-    </Link>
+    </div>
     </li>
 )
 export default NavbarItem
