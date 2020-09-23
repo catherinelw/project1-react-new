@@ -9,7 +9,7 @@ import Home from './components/pages/home/components/Home'
 import Contact from './components/pages/contact/components/Contact'
 import Portfolio from './components/pages/portfolio/components/Portfolio'
 
-class App extends from() {
+const App = () => {
   return (
     <Router>
     <div className="App">
